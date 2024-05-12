@@ -7,7 +7,7 @@ const port = 3000
 
 const cors = require('cors')
 app.use(cors({
-    origin : "http://127.0.0.1:5500"
+    origin : "https://chat1-j35i.onrender.com"
 }))
 const data = require('./public/data.json')
 
